@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="com.akashgarg.mypaylib">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-sdk tools:overrideLibrary="com.ccpp.my2c2psdk"/>
+
+
+    <application
+            android:allowBackup="true"
+            android:usesCleartextTraffic="true"
+            tools:ignore="UnusedAttribute">
+
+        <activity
+                android:name="com.ccpp.my2c2psdk.cores.My3DSActivity"
+                android:theme="@style/My2c2pSDK.Theme"
+                android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.ccpp.my2c2psdk.cores.OTPActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+    </application>
+
+
+</manifest>
