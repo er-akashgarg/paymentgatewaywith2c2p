@@ -1,5 +1,9 @@
 apply plugin: 'com.android.library'
+//apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'kotlin-android'
+
+group='com.github.er-akashgarg'
+
 
 android {
     compileSdkVersion 28
@@ -12,7 +16,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
