@@ -14,8 +14,10 @@
 
         <activity
                 android:name="com.ccpp.my2c2psdk.cores.My3DSActivity"
-                android:theme="@style/My2c2pSDK.Theme"
+                android:theme="@android:style/Theme.NoTitleBar"
                 android:screenOrientation="portrait">
+
+            <!--android:theme="@style/My2c2pSDK.Theme"-->
         </activity>
 
         <activity android:name="com.ccpp.my2c2psdk.cores.OTPActivity"
